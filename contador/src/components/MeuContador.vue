@@ -1,6 +1,6 @@
 <template>
     <div class="meu-contador">
-        <p><strong>Contador: </strong>{{contadorAtual}}</p>
+        <p><strong>Contador: </strong>{{contador}}</p>
         <button v-on:click = subtrairUm()>-</button>     
         <button v-on:click = somarUm()>+</button>
     </div>
@@ -16,7 +16,7 @@ export default {
     },
     methods: {
         subtrairUm(){
-            if(contador>0){
+            if(this.contador>0){
                 this.contador--;
             }
         },
