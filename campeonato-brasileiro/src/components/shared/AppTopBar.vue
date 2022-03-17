@@ -18,7 +18,7 @@
             v-model="group"
             active-class="green lighten-2"
             >
-                <router-link to = "/inicio">
+                <router-link to = "/">
                     <v-list-item>
                         <v-list-item-icon>
                         <v-icon>mdi-home</v-icon>
