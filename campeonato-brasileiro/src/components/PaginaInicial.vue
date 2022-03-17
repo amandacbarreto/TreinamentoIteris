@@ -15,12 +15,7 @@
 
 
 export default ({
-    
     name: 'PaginaInicial',
-
-    setup() {
-        
-    },
 })
 </script>
 
