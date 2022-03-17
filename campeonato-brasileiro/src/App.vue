@@ -1,7 +1,9 @@
 <template>
   <v-app>
     <AppTopBar/>
-    <PaginaInicial/>
+    <v-main>
+      <PaginaInicial/>
+    </v-main>
   </v-app>
 </template>
 
