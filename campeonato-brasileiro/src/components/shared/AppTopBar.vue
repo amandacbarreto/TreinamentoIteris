@@ -1,5 +1,5 @@
 <template>
-    <v-container>
+    <div class="app-top-bar">
         <v-app-bar app color="green lighten-1" dark    >
             <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
             <v-toolbar-title>Campeonato Brasileiro 2020 ⚽</v-toolbar-title>   
@@ -38,7 +38,7 @@
             </v-list-item-group>
         </v-list>
         </v-navigation-drawer>
-    </v-container>
+    </div>
 </template>
 
 <script>
@@ -55,5 +55,7 @@ export default ({
 </script>
 
 <style scoped>
-
+    .app-top-bar a{
+        text-decoration: none;
+    }
 </style>
